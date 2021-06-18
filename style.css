@@ -1,0 +1,109 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+     
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+
+.navbar ul li{ 
+    font-family: Century ;
+    font-size: 1.1;
+    font-weight: bold;
+ 
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+    
+}
+    
+     
+.navbar ul li a{
+    background-color: blanchedalmond;
+     color:black;
+     box-shadow: brown;
+
+}
+
+
+
+
+/* HOME section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: black(0,0,0,0.5);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+#home ::before{
+    content: "";
+    position: absolute;
+    
+    background: url("image.jpeg")no-repeat center center/cover;
+    
+   
+    
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+
+
+
+
+/* About section */
+#about{
+    display: flex;
+    flex-direction: column;
+    background: url("image2.jpeg");
+    padding: 20px;
+    margin: 50px;
+}
+
+
+
+/* portfolio section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background: url("image3.jpeg");
+    
+}
+
+/* contact section */
+#contact{
+    display: flex;
+    flex-direction: column;
+    background: url("image4.jpeg");
+}
+
+
+    
